@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+p,
 ul {
   margin: 0;
   padding: 0;
@@ -12,5 +16,6 @@ ul {
   width: 1280px;
   margin: 0 auto;
   font-family: Roboto, sans-serif;
+  font-weight: normal;
 }
 

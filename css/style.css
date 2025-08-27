@@ -28,6 +28,75 @@
   background-color: antiquewhite;
 }
 
+.person__content {
+  background-color: #1B2944;
+  height: 100%;
+}
+
+.person {
+  padding: 88px 168px 88px;
+  display: flex;
+}
+
+.profession {
+  padding-top: 32px;
+}
+
+.title {
+  padding-top: 13px;
+}
+
+.activity {
+  padding-top: 22px;
+  line-height: 200%;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.text_size_xl {
+  font-size: 50px;
+}
+
+.text_size_l {
+  font-size: 36px;
+}
+
+.text_size_m {
+  font-size: 24px;
+}
+
+.text_size_s {
+  font-size: 16px;
+}
+
+.text_color_y {
+  color: #ffbb01;
+}
+
+.text_color_w {
+  color: #fff;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1B2944;
+  border: 0;
+  border-radius: 6px;
+  background-color: #ffbb01;
+  box-shadow: 0 4px 0 0 #b68500;
+}
+
+.person__button {
+  width: 300px;
+  height: 66px;
+
+}
+
+
 .footer {
   background-color: beige;
 }
