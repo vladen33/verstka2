@@ -1,7 +1,7 @@
 .body {
   display: flex;
   flex-direction: column;
-  width: 944px;
+
 }
 
 .header {
@@ -10,9 +10,11 @@
 }
 
 .header__content {
+  width: 944px;
   margin: 40px 168px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .socials__list {
