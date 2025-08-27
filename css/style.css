@@ -1,4 +1,5 @@
 .body {
+  color: #fff;
   display: flex;
   flex-direction: column;
 
@@ -34,49 +35,30 @@
 }
 
 .person {
-  padding: 88px 168px 88px;
+  padding: 88px 168px 80px;
   display: flex;
+  gap: 96px;
 }
 
 .profession {
   padding-top: 32px;
+  color: #ffbb01;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-.title {
-  padding-top: 13px;
-}
-
-.activity {
-  padding-top: 22px;
-  line-height: 200%;
-}
-
-.text_bold {
-  font-weight: bold;
-}
-
-.text_size_xl {
+.fio {
+  padding-top: 12px;
   font-size: 50px;
 }
 
-.text_size_l {
-  font-size: 36px;
+.title {
+  display: block;
 }
 
-.text_size_m {
-  font-size: 24px;
-}
-
-.text_size_s {
-  font-size: 16px;
-}
-
-.text_color_y {
-  color: #ffbb01;
-}
-
-.text_color_w {
-  color: #fff;
+.activity {
+  padding-top: 24px;
+  line-height: 180%;
 }
 
 .button {
@@ -91,11 +73,24 @@
 }
 
 .person__button {
+  margin-top: 36px;
   width: 300px;
   height: 66px;
-
 }
 
+.service {
+  background-color: #141F35;
+}
+
+.service__list {
+  list-style: none;
+  display: grid;
+  padding: 88px 168px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 48px;
+}
 
 .footer {
   background-color: beige;
