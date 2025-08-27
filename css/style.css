@@ -1,0 +1,31 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 944px;
+}
+
+.header {
+  width: 100%;
+  background-color: #1B2944;
+}
+
+.header__content {
+  margin: 40px 168px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials__list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+
+.main {
+  background-color: antiquewhite;
+}
+
+.footer {
+  background-color: beige;
+}
