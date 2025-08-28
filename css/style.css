@@ -81,13 +81,30 @@
 .service {
   background-color: #141F35;
 }
+.service__block {
+  padding: 88px 168px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.service__title {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.service__text-info {
+  padding-top: 16px;
+  line-height: 28px;
+}
 
 .service__list {
   list-style: none;
   display: grid;
-  padding: 88px 168px;
+  margin-top: 48px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   column-gap: 16px;
   row-gap: 48px;
 }
