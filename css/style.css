@@ -109,6 +109,38 @@
   row-gap: 48px;
 }
 
+.projects__block-top {
+  background-color: #1B2944;
+  padding: 88px 168px;
+}
+
+.projects__list {
+  padding-top: 48px;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.projects__item {
+  position: relative;
+}
+
+.projects__button {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  position: relative;
+  left: 32px;
+  bottom: 32px;
+  background-color: #ec1f46;
+  width: 120px;
+  height: 36px;
+  border-radius: 6px;
+
+}
+
 .footer {
   background-color: beige;
 }
