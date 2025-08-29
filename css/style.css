@@ -90,6 +90,10 @@
   font-size: 36px;
 }
 
+.title_size_s {
+  font-size: 24px;
+}
+
 .service__title {
   padding-top: 15px;
   font-size: 24px;
@@ -127,7 +131,7 @@
 .projects__container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;  
+  justify-content: flex-end;
   width: 304px;
   height: 304px;
   padding-left: 32px;
@@ -177,7 +181,7 @@
 .media__data {
   list-style: none;
   display: grid;
-  padding: 88px 168px;
+  padding: 88px 168px 90px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -247,4 +251,42 @@
 
 .form__button {
   margin-top: 32px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer__column-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  column-gap: 96px;
+  row-gap: 36px;
+}
+
+.address__list-item {
+  min-width: 144px;
+}
+
+.title__address {
+  margin-bottom: 16px;
+}
+
+.address__text {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.politic {
+  color: #949494;
+  font-size: 15px;
 }
