@@ -31,8 +31,8 @@
       <section class="person">
         <div class="person__form">
           <h1>
-            <span class="title profession">Фрилансер</span>
-            <span class="title fio">Петр Федоров</span>
+            <span class="title title_profession">Фрилансер</span>
+            <span class="title title_fio">Петр Федоров</span>
           </h1>
           <p class="activity">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
           <button class="button person__button">Бесплатная консультация</button>
@@ -45,7 +45,7 @@
     </div>
     <section class="service">
       <div class="service__block">
-        <h2 class="title">Со мной удобно работать</h2>
+        <h2 class="title_size_m">Со мной удобно работать</h2>
         <ul class="service__list">
           <li class="service__item">
             <img class="service__img" src="./images/icon-offer.svg" alt="Иконка договора">
@@ -82,7 +82,7 @@
     </section>
     <section class="projects">
       <div class="projects__block-top">
-        <h2 class="title">Выполненные проекты</h2>
+        <h2 class="title_size_m">Выполненные проекты</h2>
         <ul class="projects__list">
           <li class="projects__item">            
             <div class="projects__container projects__background projects__image1">
@@ -113,21 +113,43 @@
       <div class="projects__block-bottom">
 
       </div>
-    </section>
+    </section>      
 
     <section class="media">
-
+      <ul class="media__data">
+        <li><img class="media__photo" src="./images/photo-01.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-02.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-03.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-04.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-05.png" alt="Фото рекламного щита"></li>
+        <li><img class="media__photo" src="./images/photo-06.png" alt="Фото ноутбука"></li>
+        <li><img class="media__photo" src="./images/photo-07.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-08.png" alt="Фото интерьера"></li>
+        <li><img class="media__photo" src="./images/photo-09.png" alt="Фото женщины"></li>
+        <li><img class="media__photo" src="./images/photo-10.png" alt="Фото рабочего места"></li>
+        <li><img class="media__photo" src="./images/photo-11.png" alt="Фото моста"></li>
+        <li><img class="media__photo" src="./images/photo-12.png" alt="Фото совещания"></li>
+      </ul>
     </section>
   </main>
 
   <footer class="footer">
-    <h2 class="title">Свяжитесь со мной</h2>
-    <form class="footer__form" action="">
+    <div class="footer__container">
+      <h2 class="title_size_m">Свяжитесь со мной</h2>
 
-    </form>
-    <address class="address">
+      <div class="footer__data">
+        <form class="footer__form" action="">
+          <p class="form__text">Можете просто оставить заявку, я позвоню вам сегодня</p>
+          <input class="form__input form__input_name" type="text" placeholder="Ваше имя" name="" id="">
+          <input class="form__input form__input_phone" type="text" placeholder="Ваш телефон" name="" id="">
+          <button class="button form__button">Бесплатная консультация</button>
 
-    </address>
+        </form>
+        <address class="address">
+          ADDRESS
+        </address>
+      </div>
+    </div>
   </footer>
 
 </body>
